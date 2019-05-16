@@ -9,6 +9,7 @@ import { ListaComponent } from './lista/lista.component';
 import { SeleccionComponent } from './seleccion/seleccion.component';
 import { RegionesService } from './services/regiones.service';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     HttpClientModule,
+    FormsModule
     // AppRoutingModule
   ],
   providers: [RegionesService],
